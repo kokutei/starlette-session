@@ -1,6 +1,7 @@
 # starlette-session
 
-starlette-session is an middleware for FastAPI that support server-side session to your application. 
+starlette-session is an middleware for FastAPI that support server-side session to your application.   
+I currently only implemented a `RedisSessionHandler` class that based Redis server as server-side session storage.
 A unique session ID is stored in a cookie on the user side.
 
 # Install
