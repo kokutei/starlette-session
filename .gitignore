@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache
+build/
+starlette_session.egg-info/
+site/
+venv/
+poetry.lock
+.vscode/
+dist/
+test_server/
